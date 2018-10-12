@@ -2,8 +2,8 @@
 <plugin
   xmlns="http://apache.org/cordova/ns/plugins/1.0"
   xmlns:android="http://schemas.android.com/apk/res/android"
-  id="call-number"
-  version="1.0.4">
+  id="@and_roux/call-number"
+  version="1.0.5">
 
   <description>Call Number from Cordova Application</description>
 
@@ -31,12 +31,12 @@
   </platform>
 
   <platform name="android">
-      <config-file target="res/xml/config.xml" parent="/*">
+      <config-file target="app/src/main/res/xml/config.xml" parent="/*">
           <feature name="CallNumber">
               <param name="android-package" value="com.rohithvaranasi.callnumber.CFCallNumber"/>
           </feature>
       </config-file>
-      <config-file target="AndroidManifest.xml" parent="/*">
+      <config-file target="app/src/main/AndroidManifest.xml" parent="/*">
           <uses-permission android:name="android.permission.CALL_PHONE"/>
           <uses-feature android:name="android.hardware.telephony" android:required="false" />
       </config-file>
