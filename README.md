@@ -3,6 +3,8 @@ CordovaCallNumberPlugin
 
 *Forked from https://github.com/rohfosho/CordovaCallNumberPlugin because it was not getting updates on npmjs. As soon as it gets updated I'll take this down.*
 
+Cordova repo decided to cache/save some weird relationship to another call number plugin so I renamed a bunch of stuff here.
+
 Call a number directly from your cordova application.
 
 Install the plugin using:
