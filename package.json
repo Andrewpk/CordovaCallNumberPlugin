@@ -1,9 +1,9 @@
 {
-  "name": "@and_roux/call-number-modified",
-  "version": "1.0.8",
+  "name": "ak-call-number-modified",
+  "version": "1.0.9",
   "description": "Call Number from Cordova Application - Modified",
   "cordova": {
-    "id": "@and_roux/call-number-modified",
+    "id": "ak-call-number-modified",
     "platforms": [
       "ios",
       "android"
@@ -22,7 +22,7 @@
     "cordova-ios",
     "cordova-android"
   ],
-  "author": "",
+  "author": "andrew kehrig",
   "license": "Apache 2.0",
   "bugs": {
     "url": "https://github.com/Andrewpk/CordovaCallNumberPlugin/issues"

@@ -2,8 +2,8 @@
 <plugin
   xmlns="http://apache.org/cordova/ns/plugins/1.0"
   xmlns:android="http://schemas.android.com/apk/res/android"
-  id="@and_roux/call-number-modified"
-  version="1.0.8">
+  id="ak-call-number-modified"
+  version="1.0.9">
 
   <description>Call Number from Cordova Application - Modified</description>
 
