@@ -3,7 +3,7 @@
   xmlns="http://apache.org/cordova/ns/plugins/1.0"
   xmlns:android="http://schemas.android.com/apk/res/android"
   id="@and_roux/call-number-modified"
-  version="1.0.7">
+  version="1.0.8">
 
   <description>Call Number from Cordova Application - Modified</description>
 
@@ -18,6 +18,7 @@
   <keywords>cordova,call,dialer,phonegap</keywords>
   <js-module src="www/AKCallNumber.js" name="AKCallNumber">
     <clobbers target="call"/>
+    <clobbers target="AKCallNumber"/>
   </js-module>
 
   <platform name="ios">
