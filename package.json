@@ -1,6 +1,6 @@
 {
   "name": "@and_roux/call-number-modified",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Call Number from Cordova Application - Modified",
   "cordova": {
     "id": "@and_roux/call-number-modified",
